@@ -1,0 +1,42 @@
+{
+  "name": "sambaba.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "lint": "tslint --project .",
+    "lint:fix": "tslint --project . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samelliottdlt/sambaba.me.git"
+  },
+  "author": "Sam Elliott De La Torre Baba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samelliottdlt/sambaba.me/issues"
+  },
+  "homepage": "https://github.com/samelliottdlt/sambaba.me#readme",
+  "devDependencies": {
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-loadable": "^5.4.0",
+    "@types/react-router-dom": "^4.2.7",
+    "parcel-bundler": "^1.9.4",
+    "parcel-plugin-typescript": "^1.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "~2.9.2"
+  },
+  "dependencies": {
+    "konva": "^2.1.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-konva": "^1.7.9",
+    "react-loadable": "^5.4.0",
+    "react-router-dom": "^4.3.1",
+    "rxjs": "^6.2.1",
+    "styled-components": "^3.3.3"
+  }
+}
